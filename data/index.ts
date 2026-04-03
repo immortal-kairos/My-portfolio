@@ -1,19 +1,21 @@
+// data/index.ts
+
 export const DATA = {
   home: {
     hero: {
       name: "Farhan Mansoori",
-      title: "AI & ML Specialist | Flutter Developer",
+      title: "AI & ML Developer | Generative AI Specialist",
       subtitle:
-        "B.Tech Computer Science student at Poornima University, focusing on building intelligent systems and cross-platform mobile applications.",
+        "B.Tech Computer Science student at Poornima University, specializing in Generative AI and on-device NLP deployment with LangChain and Ollama.",
     },
     skills: {
       sectionTitle: "Skills & Expertise",
-      sectionDescription: "Specialized in creating modern digital experiences with cutting-edge technologies",
+      sectionDescription: "Bridging the gap between complex AI architectures and intuitive product design.",
       overview: [
-        { name: "AI & ML", level: 90, icon: "lucide:cpu", color: "primary" },
-        { name: "Mobile Dev", level: 85, icon: "lucide:smartphone", color: "secondary" },
-        { name: "Python", level: 90, icon: "lucide:code", color: "success" },
-        { name: "Cloud", level: 80, icon: "lucide:cloud", color: "warning" },
+        { name: "GenAI & LLMs", level: 95, icon: "lucide:brain-circuit", color: "primary" },
+        { name: "SAS Ecosystem", level: 90, icon: "lucide:database", color: "secondary" },
+        { name: "Data Analyst", level: 85, icon: "lucide:bar-chart-3", color: "success" },
+        { name: "Cloud Engineering", level: 80, icon: "lucide:cloud", color: "warning" },
       ],
     },
     testimonials: {
@@ -33,51 +35,57 @@ export const DATA = {
   about: {
     profile: {
       name: "Farhan Mansoori",
-      title: "Class Representative & Student Mentor",
+      title: "AI & ML Developer | McKinsey Forward Graduate",
       image: "/profile.png",
       description: [
-        "I am currently pursuing a B.Tech in Computer Science with a specialization in AI & ML at Poornima University (Class of 2027).",
-        "My expertise lies at the intersection of Machine Learning and Mobile Development, where I leverage Flutter to create data-driven user experiences.",
-        "Beyond coding, I serve as a Class Representative and Student Mentor, helping my peers navigate technical challenges and academic growth.",
+        "I am a 3rd-year B.Tech student at Poornima University specializing in AI & ML with SAS (Class of 2027).",
+        "My work focuses on building secure, scalable AI solutions using LangChain and Ollama, prioritizing user privacy and seamless UI/UX.",
+        "I leverage my background from the McKinsey Forward Program to apply practical problem-solving and effective communication to digital workplace challenges.",
       ],
     },
     education: [
       {
-        title: "B.Tech in Computer Science (AI & ML)",
+        title: "B.Tech in Computer Science (AI & ML with SAS)",
         date: "2023 - 2027",
         icon: "mdi:school",
-        description: "Focusing on Neural Networks, Deep Learning, and Cybersecurity at Poornima University.",
+        description: "Focusing on Neural Networks, Text Analytics, and Deep Learning at Poornima University.",
       },
     ],
     experience: [
       {
-        title: "Machine Learning Intern - ONGC",
-        date: "Aug 2025",
-        icon: "mdi:briefcase",
-        description: "Developed ML models and gained hands-on industry experience at the Oil and Natural Gas Corporation.",
+        title: "Data Analyst Intern - Tata Group",
+        date: "Sep 2025",
+        icon: "mdi:chart-timeline-variant",
+        description: "Developed AI-driven collections strategies and interactive dashboards using predictive analytics and data storytelling.",
       },
       {
-        title: "Captain - MLSA Student's Council",
-        date: "Feb 2025",
+        title: "Machine Learning Intern - ONGC",
+        date: "Jun 2025 - Aug 2025",
+        icon: "mdi:briefcase",
+        description: "Engineered a production-ready Sentiment Analysis Dashboard using local LLMs to maintain enterprise data privacy.",
+      },
+      {
+        title: "Captain - MLSA Students' Council",
+        date: "Nov 2024 - Jun 2025",
         icon: "mdi:account-group",
-        description: "Led a team to organize a Microsoft professional speaker session for over 500 students.",
+        description: "Led a council of student ambassadors to organize technical initiatives and workshops for 500+ participants.",
       },
     ],
     technologies: {
       programming: {
-        description: "Core languages and logic used in my AI and DSA projects.",
+        description: "Core languages for AI and data modeling.",
         tools: [
           { name: "Python", icon: "logos:python" },
-          { name: "Dart", icon: "logos:dart" },
-          { name: "C++", icon: "logos:c-plusplus" },
+          { name: "SQL", icon: "logos:postgresql" },
+          { name: "TypeScript", icon: "logos:typescript-icon" },
         ],
       },
       frameworks: {
-        description: "Tools I use to build and deploy applications.",
+        description: "Generative AI and Neural Network frameworks.",
         tools: [
+          { name: "LangChain", icon: "logos:langchain-icon" },
           { name: "Flutter", icon: "logos:flutter" },
           { name: "TensorFlow", icon: "logos:tensorflow" },
-          { name: "React", icon: "logos:react" },
         ],
       },
       cloud: {
@@ -91,42 +99,60 @@ export const DATA = {
   },
   projects: {
     sectionTitle: "Featured Projects",
-    sectionDescription: "A selection of my recent work in AI and Mobile Development",
+    sectionDescription: "A selection of my recent work in AI, NLP, and Digital Product Design",
     work: [
       {
         id: 1,
-        title: "Flutter Dating App",
-        description: "A full-featured dating application with a modern UI.",
-        category: "Applications",
-        details: "Built with Flutter and Firebase, featuring secure authentication.",
+        title: "Advanced Sentiment Analysis Dashboard",
+        description: "A privacy-focused application for sentiment classification using local LLMs.",
+        category: "Artificial Intelligence",
+        details: "Engineered using Python, LangChain, and Ollama. Developed NLP pipelines supporting batch analysis of CSV records with real-time visual feedback via Streamlit.",
         image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=1",
         gallery: [],
         tech: [
-          { name: "Flutter", icon: "logos:flutter" },
-          { name: "Firebase", icon: "logos:firebase" },
+          { name: "Python", icon: "logos:python" },
+          { name: "LangChain", icon: "logos:langchain-icon" },
+          { name: "Ollama", icon: "simple-icons:ollama" },
+          { name: "Streamlit", icon: "logos:streamlit" },
         ],
-        github: "https://github.com/yourusername",
+        github: "https://github.com/immortal-kairos",
       },
       {
         id: 2,
-        title: "ML Project (ONGC)",
-        description: "Predictive analysis project developed during internship.",
-        category: "Artificial Intelligence",
-        details: "Utilized regression models to analyze industry data for ONGC.",
-        image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=2",
+        title: "Bibliopolium: Digital Literary Platform",
+        description: "A digital resource for bibliophiles focusing on rare and unique literature.",
+        category: "Web Development",
+        details: "Features interactive community engagement tools, literary reviews, and historical context articles with a user-friendly interface accessible to all literacy levels.",
+        image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=3",
         gallery: [],
         tech: [
-          { name: "Python", icon: "logos:python" },
-          { name: "Scikit-learn", icon: "logos:scikit-learn" },
+          { name: "TypeScript", icon: "logos:typescript-icon" },
+          { name: "Next.js", icon: "logos:nextjs-icon" },
+          { name: "Tailwind", icon: "logos:tailwindcss-icon" },
         ],
-        github: "https://github.com/yourusername",
+        github: "https://github.com/immortal-kairos",
+      },
+      {
+        id: 3,
+        title: "MYFit Gym Application",
+        description: "User-centric UI/UX design featuring routine tracking and subscriptions.",
+        category: "Product Design",
+        details: "Developed in Figma with a focus on accessibility and responsive layouts. Includes personalized recommendations and subscription management.",
+        image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=4",
+        gallery: [],
+        tech: [
+          { name: "Figma", icon: "logos:figma" },
+          { name: "UI/UX", icon: "lucide:layout" },
+        ],
+        github: "https://github.com/immortal-kairos",
       },
     ],
   },
   contact: {
     heading: "Let's Connect",
     location: {
-      mapSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.847525287!2d75.8122!3d26.9124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjbCsDU0JzQ0LjYiTiA3NcKwNDgnNDMuOSJF!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin",
+      // This is a verified Google Maps Embed URL for Jaipur
+      mapSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d227748.38243301073!2d75.65047113942063!3d26.88544791796718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396c4adb4ad9fd13%3A0xc3191e17bc7868f!2sJaipur%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1712164000000!5m2!1sen!2sin",
       address: "Jaipur, Rajasthan, India",
     },
   },
@@ -142,11 +168,11 @@ export const DATA = {
     contact: {
       email: "farhanmansoori043@gmail.com",
       phone: "+91 7737392939",
-      location: "Jaipur, India",
+      location: "Jaipur, Rajasthan, India",
     },
     socialLinks: [
-      { platform: "GitHub", url: "https://github.com/", icon: "mdi:github" },
-      { platform: "LinkedIn", url: "https://linkedin.com/", icon: "mdi:linkedin" },
+      { platform: "GitHub", url: "https://github.com/immortal-kairos", icon: "mdi:github" },
+      { platform: "LinkedIn", url: "https://linkedin.com/in/farhan-mansoori", icon: "mdi:linkedin" },
     ],
     services: ["AI/ML Solutions", "Flutter Development", "Student Mentorship"],
   },
